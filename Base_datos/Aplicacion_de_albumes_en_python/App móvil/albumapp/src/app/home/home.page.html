@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mis albumnes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Mis albumnes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card *ngFor="let album of albums">
+    <img [src]="album.link_caratula">
+    <ion-card-header>
+      <ion-card-title>
+        {{ album.nombre_artista }}
+      </ion-card-title>
+      <ion-card-subtitle>
+        {{ album.titulo_album }}
+      </ion-card-subtitle>
+      <ion-card-subtitle>
+        {{ album.ano_produccion }}
+      </ion-card-subtitle>
+        {{ album.tracks}}
+    </ion-card-header>
+
+
+  </ion-card>
+</ion-content>
