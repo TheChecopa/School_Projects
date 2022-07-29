@@ -1,0 +1,7 @@
+## Objetivo
+
+Implementar el algoritmo de Prim usando una cola de prioridad.
+
+## Descripción
+
+Agregar al proyecto la capacidad para obtener el *árbol de expansión mínimo* desde un punto origen existente.

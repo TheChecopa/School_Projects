@@ -1,0 +1,23 @@
+## Objetivo
+
+Hacer uso de la estructura de datos `dictionary` para implementar un Grafo en Python.
+
+## Descripción
+
+Agregar al proyecto la capacidad para convertir las partículas a su representación en Grafo utilizando la estructura de datos `dictionary`. Se sabe que cada partícula contienes 2 puntos, por lo tanto cada punto representa un vértice en el diccionario (grafo). Con lo anterior, una partícula representa una arista (conexión) entre sus 2 puntos (o vértices), donde la ponderación de la arista, es la distancia de la partícula (distancia entre el punto origen y punto destino; calculada previamente). 
+
+
+Las partículas puede ser representado como un diccionario en Python de la siguiente manera:
+
+```python
+grafo = {
+	(0, 100): [ (100, 100, 100), 
+		(200, 150, 206)],
+	(100, 100): [(0, 100,100),
+		(300, 0, 223)],
+	(200, 150): [(0, 100, 206)],
+        (300, 0): [(100, 100, 223)]
+}
+```
+
+Donde los *keys* son representados con *tuplas*, las cuales almacenan una posición *(origen_x, origen_y)* o *(destino_x, destino_y)*. Los *values* son una lista de *tuplas*, tales *tuplas* también almacenan una posición *(origen_x, origen_y, distancia)* o *(destino_x, destino_y, distancia)*.

@@ -1,0 +1,112 @@
+[
+     {
+          "id": "0",
+          "origen_x": 10,
+          "origen_y": 2,
+          "destino_x": 2,
+          "destino_y": 30,
+          "velocidad": "10",
+          "red": 12,
+          "green": 45,
+          "blue": 98
+     },
+     {
+          "id": "1",
+          "origen_x": 10,
+          "origen_y": 2,
+          "destino_x": 60,
+          "destino_y": 30,
+          "velocidad": "1",
+          "red": 12,
+          "green": 200,
+          "blue": 98
+     },
+     {
+          "id": "2",
+          "origen_x": 10,
+          "origen_y": 2,
+          "destino_x": 30,
+          "destino_y": 30,
+          "velocidad": "7",
+          "red": 120,
+          "green": 200,
+          "blue": 98
+     },
+     {
+          "id": "3",
+          "origen_x": 2,
+          "origen_y": 30,
+          "destino_x": 2,
+          "destino_y": 100,
+          "velocidad": "3",
+          "red": 120,
+          "green": 200,
+          "blue": 8
+     },
+     {
+          "id": "4",
+          "origen_x": 2,
+          "origen_y": 30,
+          "destino_x": 30,
+          "destino_y": 30,
+          "velocidad": "6",
+          "red": 100,
+          "green": 200,
+          "blue": 80
+     },
+     {
+          "id": "5",
+          "origen_x": 30,
+          "origen_y": 30,
+          "destino_x": 60,
+          "destino_y": 30,
+          "velocidad": "2",
+          "red": 100,
+          "green": 0,
+          "blue": 0
+     },
+     {
+          "id": "6",
+          "origen_x": 30,
+          "origen_y": 30,
+          "destino_x": 2,
+          "destino_y": 100,
+          "velocidad": "4",
+          "red": 100,
+          "green": 0,
+          "blue": 0
+     },
+     {
+          "id": "7",
+          "origen_x": 30,
+          "origen_y": 30,
+          "destino_x": 60,
+          "destino_y": 100,
+          "velocidad": "9",
+          "red": 100,
+          "green": 0,
+          "blue": 0
+     },
+     {
+          "id": "8",
+          "origen_x": 2,
+          "origen_y": 100,
+          "destino_x": 60,
+          "destino_y": 100,
+          "velocidad": "5",
+          "red": 100,
+          "green": 0,
+          "blue": 0
+     },
+     {
+          "id": "9",
+          "origen_x": 60,
+          "origen_y": 30,
+          "destino_x": 60,
+          "destino_y": 100,
+          "velocidad": "0",
+          "red": 100,
+          "green": 0,
+          "blue": 0
+     }
+]

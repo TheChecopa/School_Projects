@@ -1,0 +1,9 @@
+## Descripcion
+•Se define elgraforesultante ( ́arbol de expansi ́on m ́ınima).
+•Se define unalista ordenada(cola de prioridad) de las aristas(distancia, (origen,destino))de menor a mayor distancia(peso).
+•Se  define  unDisjoint-Set(conjunto-disjunto)  y  hacerMAKE-SETatodos  losnodos.
+•Mientrasno est ́e vac ́ıa la lista ordenada, hacer:
+	–Tomar laarista(distancia, (origen, destino))con con la 	menor distancia de lalista ordenaday eliminarla (pop).
+	-Si Find-Set(origen)es diferente deFind-Se(destino)
+	∗Agregar laa rista(distancia (origen, 	destino))algraforesultante.
+	∗Unirlos conjuntos donde se encuentran el origen y el 		destino

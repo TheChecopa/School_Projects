@@ -1,0 +1,15 @@
+## Objetivo
+
+Hacer uso del método `sort()` para ordenar objetos en una lista.
+
+Hacer uso de funciones `lambda` junto el método `sort()` para ordenar objetos en una lista usando diferentes atributos.
+
+## Descripción
+
+Agregar al proyecto la capacidad para ordenar las partículas por:
+
+- id (ascendente)
+- Distancia (descendente)
+- Velocidad (ascendente)
+
+Con lo anterior, al mostrar las partículas en el `QPlainTextEdit` y `QTableWidget` deberán mostrarse ordenadas.

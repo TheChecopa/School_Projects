@@ -1,0 +1,12 @@
+Descripcion
+•Se elige unnodo origenpara calcular elcaminom ́ınimo.
+•Se construye unarreglo de distancias(diccionario)del tama ̃no de la cantidadde nodos.  En la posici ́on delnodo origense coloca elvalor de 0, mientras en las demas posiciones el valor deinfinito.
+•Se crea unarreglo(diccionario)del tama ̃no de la cantidad de nodos en el cual seguardar ́a elcamino.
+•Se crea unalista ordenada(cola de prioridad)y se mete elnodo origencon sudistancia 0.
+•Mientrasno est ́e vac ́ıa la lista ordenada, hacer:
+	–Se extrae de la lista ordenadael nodon1.
+	–Por cadaarista(conexi ́on) delnodo n, hacer:		
+	∗Si la distanciahacia  elnodo  destino+  ladistanciadelnodo n2 es menor que la distancia en el arreglo de distancias, hacer:
+		·Se coloca lanueva distancia3en elarreglo de distancias.
+		·En elarreglo de caminose agrega en laposicion de lnodo destino la conexion padre del nodo extráıdo.
+		·Se agrega a lalista ordenadaelnodo destinocon lanueva distancia.
